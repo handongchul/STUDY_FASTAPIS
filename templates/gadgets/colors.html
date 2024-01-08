@@ -1,0 +1,44 @@
+{% extends "main_template.html" %}
+{% block main_container %}
+    <nav class="container">nav</nav>
+    <main class="container">
+        <div>
+            <!-- mix colors -->
+            <div>mix color with text and background</div>
+            <div class="bg-success text-white">bg-success</div>            
+        </div>
+        <!-- text colors -->
+        <div>
+            <div>Text colors</div>
+            <div class="text-muted" >This text is muted.</div>
+            <div class="text-primary">This text is important.</div>
+            <div class="text-success">This text indicates success.</div>
+            <div class="text-info">This text represents some information.</div>
+            <div class="text-warning">This text represents a warning.</div>
+            <div class="text-danger">This text represents danger.</div>
+            <div class="text-secondary">Secondary text.</div>
+            <div class="text-dark">This text is dark grey.</div>
+            <div class="text-body">Default body color (often black).</div>
+            <div class="text-light">This text is light grey (on white background).</div>
+            <div class="text-white">This text is white (on white background).</div>
+        </div>
+        <!-- back ground colors -->
+        <div>
+            <div>back ground colors</div>
+            <div class="bg-primary">bg-primary</div>
+            <div class="bg-success">bg-success</div>
+            <div class="bg-info">bg-info</div>
+            <div class="bg-warning">bg-warning</div>
+            <div class="bg-danger">bg-danger</div>
+            <div class="bg-secondary">bg-secondary</div>
+            <div class="bg-dark">bg-dark</div>
+            <div class="bg-light">bg-light</div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        footer
+        <form action="/">
+            <button type="submit">index.html로 이동</button:sumbit>
+        </form>    
+    </footer>
+{% endblock %}
